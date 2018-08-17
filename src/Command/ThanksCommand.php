@@ -94,6 +94,10 @@ class ThanksCommand extends BaseCommand
             'name' => 'zendframework/zendframework',
             'url' => 'https://github.com/zendframework/zendframework',
         ],
+        'enqueue' => [
+            'name' => 'enqueue/enqueue',
+            'url' => 'https://github.com/php-enqueue/enqueue-dev',
+        ],
     ];
 
     private $star = '★ ';
